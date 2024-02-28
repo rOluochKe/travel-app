@@ -1,6 +1,6 @@
 import { FlatList } from 'react-native'
 import React from 'react'
-import { Slides } from '../../components'
+import Slides from '../../components/Onboard/Slides'
 
 const Onboarding = () => {
   const slides = [
