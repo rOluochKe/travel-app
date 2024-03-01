@@ -3,6 +3,7 @@ import ReusableBtn from "./Buttons/ReusableBtn";
 import HeightSpacer from "./Reusable/HeightSpacer";
 import WidthSpacer from "./Reusable/WidthSpacer";
 import NetworkImage from "./Reusable/NetworkImage";
+import DescriptionText from "./Reusable/DescriptionText";
 
 export {
   ReusableText,
@@ -10,4 +11,5 @@ export {
   HeightSpacer,
   WidthSpacer,
   NetworkImage,
+  DescriptionText,
 }

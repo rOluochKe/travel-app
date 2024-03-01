@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { ReusableText, NetworkImage, HeightSpacer } from '../../../components'
@@ -8,7 +8,7 @@ const Country = ({ item }) => {
   const navigation = useNavigation()
 
   return (
-    <TouchableOpacity onPress={() => navigation.navigate('Country Details')}>
+    <TouchableOpacity onPress={() => navigation.navigate('Country Details', item._id)}>
       <View>
 
         <NetworkImage

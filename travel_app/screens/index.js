@@ -9,6 +9,7 @@ import Recommended from "./details/Recommended";
 import PlaceDetails from "./details/PlaceDetails";
 import HotelDetails from "./details/HotelDetails";
 import HotelList from "./details/HotelList";
+import HotelSearch from "./search/HotelSearch";
 
 export {
   Onboarding,
@@ -22,4 +23,5 @@ export {
   PlaceDetails,
   HotelDetails,
   HotelList,
+  HotelSearch
 }

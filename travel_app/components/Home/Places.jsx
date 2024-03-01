@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, VirtualizedList } from 'react-native'
+import { StyleSheet, View, VirtualizedList } from 'react-native'
 import React from 'react'
 import HeightSpacer from '../Reusable/HeightSpacer'
 import { SIZES } from '../../constants/theme'
@@ -51,7 +51,7 @@ const Places = () => {
        "https://d326fntlu7tb1e.cloudfront.net/uploads/45e7d539-23c4-4b9a-91c8-1b0dec6e2ae9-vinci_04_china.jpg",
      region: "East Asia, China",
    },
-]
+  ]
 
   return (
     <View>

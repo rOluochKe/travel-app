@@ -56,7 +56,7 @@ const Recommendations = () => {
         "rating": 4.8,
         "review": "24455 Reviews"
     }
-];
+  ];
 
   return (
     <View style={styles.container}>

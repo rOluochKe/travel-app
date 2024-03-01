@@ -37,7 +37,7 @@ const Home = ({ navigation }) => {
           color={COLORS.black}
         />
 
-        <Places  />
+        <Places />
 
         <HeightSpacer height={15} />
 
