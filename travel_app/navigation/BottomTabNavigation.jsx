@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator()
 const tabBarStyle = {
   padding: 20,
   borderRadius: 20,
-  height: 80,
+  height: 60,
   position: 'absolute',
   bottom: 20,
   left: 20,
