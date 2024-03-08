@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import React from 'react'
 
 const TopTrips = () => {
   return (
-    <View>
-      <Text>TopTrips</Text>
+    <View style={{margin: 20}}>
+
     </View>
   )
 }
