@@ -18,6 +18,9 @@ import Settings from "./settings/Settings";
 import Payments from "./payments/Payments";
 import Failed from "./bookings/Failed";
 import Success from "./bookings/Success";
+import Registration from "./authentication/Registration";
+import Signin from "./authentication/Signin";
+import SelectedRoom from "./details/SelectedRoom";
 
 export {
   Onboarding,
@@ -40,4 +43,7 @@ export {
   Payments,
   Failed,
   Success,
+  Registration,
+  Signin,
+  SelectedRoom,
 }
