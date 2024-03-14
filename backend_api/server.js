@@ -4,6 +4,9 @@ const mongoose = require('mongoose')
 const errorHandler = require('./middleware/errorHandling')
 const authRouter = require('./routes/auth')
 const userRouter = require('./routes/user')
+const placeRouter = require('./routes/place')
+const countryRouter = require('./routes/country')
+const hotelRouter = require('./routes/hotel')
 
 const port = 3000
 dotenv.config()
@@ -20,5 +23,8 @@ app.use(errorHandler)
 app.get('/', (req, res) => res.send('Welcome to the Travel Application!'))
 app.use('/api/auth/', authRouter)
 app.use('/api/users/', userRouter)
+app.use('/api/places/', placeRouter)
+app.use('/api/countries/', countryRouter)
+app.use('/api/hotels/', hotelRouter)
 
 app.listen(process.env.PORT || port, () => console.log(`Server app listening on port ${process.env.PORT || port}!`))
