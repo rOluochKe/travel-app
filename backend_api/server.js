@@ -7,6 +7,7 @@ const userRouter = require('./routes/user')
 const placeRouter = require('./routes/place')
 const countryRouter = require('./routes/country')
 const hotelRouter = require('./routes/hotel')
+const reviewRouter = require('./routes/review')
 
 const port = 3000
 dotenv.config()
@@ -26,5 +27,6 @@ app.use('/api/users/', userRouter)
 app.use('/api/places/', placeRouter)
 app.use('/api/countries/', countryRouter)
 app.use('/api/hotels/', hotelRouter)
+app.use('/api/reviews/', reviewRouter)
 
 app.listen(process.env.PORT || port, () => console.log(`Server app listening on port ${process.env.PORT || port}!`))
